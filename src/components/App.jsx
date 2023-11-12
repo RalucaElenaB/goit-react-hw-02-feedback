@@ -1,16 +1,7 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template!!!vvvvvvvvvvv
-    </div>
-  );
+import { Section } from './Section/Section';
+
+const App = () => {
+  return <Section />;
 };
+
+export default App;
